@@ -109,7 +109,7 @@ img_size: 224x224 # 0.946+
 backbone: repvgg-a2
 loss: ce
 scheduler: cos
-mixup: alpha=2
+mixup: alpha=0.2
 策略: 前30epoch使用mixup，后30epoch正常训练
 transforms/img_aug: 水平翻转、resize
 # 0.9503
